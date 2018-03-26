@@ -1,0 +1,156 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  /* margin: 0px 220px; */
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App{
+    margin: 0px 220px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  padding-bottom: 25px;
+  height: 75px;
+}
+
+a {
+  color: black;
+  margin: 17px;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+button {
+  background-color: #4aa57f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  height: 30px;
+  margin-top: 40px 0px;
+  width: 110px;
+}
+
+
+h1 {
+  font-size: 42px;
+  font-family: "Lora", serif;
+  margin-top: 40px 0px 25px 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+.main-left{
+  width: 50%;
+justify-content: space-between;
+}
+
+.main-right{
+  width: 50%;
+  flex-flow: wrap;
+justify-content: space-between;
+}
+
+.main-right img{
+  height: auto;
+  width: 420px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.button-black {
+  background: black;
+  color: white;
+  margin: 20px 0px;;
+  height: 30px;
+}
+
+.button-white {
+  background: white;
+  color: black;
+  border: solid 2px;
+  margin: 10px 20px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.h2 {
+  font-family: "Lucida Grande";
+  font-size: 16px;
+  font-weight: bold;
+  background-color: yellow;
+  margin-left: 10px;
+}
+
+.p  {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 16px;
+}
+
+button {
+  background-color: #39a539;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 30px;
+  margin-top: 10px;
+  width: 110px;
+}
+
+button a{
+  color: white;
+  font-size: 10px;
+  padding: 0px;
+    margin-top: 13px;
+}
+
+.all-quarters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-quarter {
+  border: 1px solid lightgrey;
+  width: 420px;
+  height: 255px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-quarter img {
+  width: 200px;
+  height: 255px;
+}
+
+h2  {
+  font-size: 15px;
+  width: 200px;
+}
+
+.quarterTextBox {
+  padding-left: 10px;
+}
+
+.line {
+  height: 12px;
+}
